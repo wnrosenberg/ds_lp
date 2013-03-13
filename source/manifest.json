@@ -1,0 +1,16 @@
+{
+  /* DS_LP Manifest */
+  "manifest_version": 2,
+
+  "name": "Liquid Planner Time Format",
+  "description": "Adds functionality to Liquid Planner to allow time to be entered as h:mm.",
+  "version": "1.0",
+
+  "content_scripts" : [
+    {
+      "matches" : ["https://app.liquidplanner.com/*"],
+      "js"      : ["jquery.js","ds_lp.js"]
+    }
+  ]
+
+}
